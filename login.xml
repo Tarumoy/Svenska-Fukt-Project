@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"    
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"        
+        android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".40"
+        android:background="@drawable/header" >
+       
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/bg">
+        
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginBottom="0dp"	        
+	        android:gravity="center"	 	
+	        android:orientation="vertical"		    
+	        android:background="#FFC20F">
+	        
+            <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="45dp" 
+		        android:background="@android:color/white">
+		        
+                <RelativeLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="10dp"
+			        android:layout_marginLeft="20dp"
+	        		android:layout_marginRight="20dp" 
+			        android:background="@android:color/white">
+
+	                <TextView
+	                    android:layout_alignParentLeft="true"
+	                    android:id="@+id/textViewWorkerLogin"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center_horizontal"
+	                    android:text="Worker Login"
+	                    
+	                    android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+		            <ImageView
+		                android:id="@+id/imageView1"
+		                android:layout_alignParentRight="true"
+		                android:layout_width="wrap_content"
+		                android:layout_height="25dp"
+		                android:layout_gravity="center_horizontal"	                
+		                android:src="@drawable/human" />
+		            
+		         </RelativeLayout>   
+	            
+	         </LinearLayout>
+        
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 	
+	        android:layout_marginTop="20dp"  
+	        android:layout_marginBottom="20dp"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginRight="15dp"      
+	        android:gravity="center"
+	        android:orientation="vertical"
+	        android:background="#FFC20F">
+
+        <EditText
+            android:id="@+id/editTextUserName"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:background="@android:color/white"
+            android:layout_marginBottom="10dp"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:background="@android:color/white"
+            android:layout_marginBottom="10dp"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:text="Logga in" />
+        
+         </LinearLayout>
+        
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+   </LinearLayout>
+
