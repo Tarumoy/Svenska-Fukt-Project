@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".30"
+        android:background="#FFC20F" >
+        
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_marginTop="5dp"  
+	        android:layout_marginBottom="5dp"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"        
+	        android:background="#FFC20F" >
+	                   
+		        <Spinner
+		             android:id="@+id/spinner1"
+		             android:layout_width="wrap_content"
+		             android:layout_height="wrap_content"
+		             android:layout_weight="1"	                
+		             android:background="#FFFFFF" />		                
+		
+		         <Button
+		             android:id="@+id/btnLogout"
+		             android:layout_width="wrap_content"
+		             android:layout_height="wrap_content"
+		             android:layout_marginLeft="5dp"		                	                
+		             android:background="@drawable/logout" 
+		             android:textColor="@android:color/white" 		                         
+		             android:text="Logout" />
+		            		          
+	        
+        </LinearLayout>    
+       
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".80"
+        android:background="#88A6A4" >
+        
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_marginTop="5dp"  	        
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"        
+	        android:background="#F4F6F3"
+	        android:orientation="vertical" >
+            
+            <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="8dp"
+		        >
+
+                <LinearLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1">
+			        
+	                    <TextView
+		                    android:id="@+id/textViewAddress"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:text="Address  "  />
+	
+	                	<TextView
+		                    android:id="@+id/textViewAddresDetails"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:text="MediumText" />
+                    
+                </LinearLayout>
+                
+                <LinearLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1">
+               
+                
+	                <TextView
+	                    android:id="@+id/textViewContact"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="Kontperson " />
+	
+	                <TextView
+	                    android:id="@+id/textViewContactPerson"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="MediumText" />
+               </LinearLayout>  
+		        
+            </LinearLayout>
+            <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="8dp"
+		        >
+                
+                <LinearLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1">
+                
+	                <TextView
+	                    android:id="@+id/textViewStartid"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="Startid  " />
+	
+	                <TextView
+	                    android:id="@+id/textViewStartiddd"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="08-09-2013" />
+	            </LinearLayout>
+	            <LinearLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1">    
+	                <TextView
+	                    android:id="@+id/textViewMobile"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="Mobilnr  " />
+	
+	                <TextView
+	                    android:id="@+id/textViewMobileNo"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="45 6566886868" />
+			     </LinearLayout>
+			        
+            </LinearLayout>   
+            <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="8dp"
+		        >
+	            
+                <LinearLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1">
+                
+	                <TextView
+	                    android:id="@+id/textViewSlutttid"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="Sluttid  " />
+	
+	                <TextView
+	                    android:id="@+id/textViewSluttiddetails"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="10-09-2013" />
+	            </LinearLayout>
+	            
+                <LinearLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:background="@drawable/border_linearlayout">
+	                <TextView
+	                    android:id="@+id/textViewBudget"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="Budget  " />
+	
+	                <TextView
+	                    android:id="@+id/textViewBudgetDetails"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="50.00000" />
+                </LinearLayout>
+		        
+            </LinearLayout>       
+            
+            
+        </LinearLayout>    
+       
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3"
+        android:background="#88A6A4" >
+        
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_marginBottom="5dp"  	        
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	        android:orientation="vertical" >
+            
+            <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight=".40" 
+		        android:background="@drawable/bg_tab">
+                
+                <LinearLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1">
+	                
+                    <TextView
+	                    android:id="@+id/textViewMessage"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:paddingLeft="5dp"	                    	                    
+	                    android:text="Message"
+	                    android:textAppearance="?android:attr/textAppearanceMedium" />
+	                
+	            </LinearLayout>
+	            <LinearLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight=".70">
+                    
+	                <TextView
+	                    android:id="@+id/textViewMessage"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:paddingLeft="10dp"		                    	                    
+	                    android:text="Private Message" 
+	                    android:textAppearance="?android:attr/textAppearanceMedium" />
+	                
+	            </LinearLayout>
+	            <LinearLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1">
+	                
+	                <TextView
+	                    android:id="@+id/textViewMessage"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"	
+	                    android:paddingLeft="10dp"                  	                    
+	                    android:text="Tillagg"
+	                    android:textAppearance="?android:attr/textAppearanceMedium" />
+	                
+	            </LinearLayout>    
+            
+	       <!-- <RelativeLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent">
+	                               
+	                <Button
+	                    android:id="@+id/button1"                    
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"	                    	                    
+	                    android:text="Message" />
+	                <Button
+	                    android:id="@+id/button2"                    
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_centerInParent="true" 	                    	                                   
+	                    android:text="Private Message" />
+	                <Button
+	                    android:id="@+id/button3"                    
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentRight="true"	                    	                    
+	                    android:text="Tillagg" />
+	                
+	                
+	           </RelativeLayout>  -->
+	        </LinearLayout>   
+           
+            <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1" 
+		        android:background="#F4F6F3"
+		         >
+
+                
+                
+           </LinearLayout>
+           <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight=".010" 
+		        android:background="#F4F6F3">
+                
+               <ImageView
+		            android:id="@+id/imageView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:background="@drawable/icon_bileder" />
+
+               <TextView
+                   android:id="@+id/textView1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:gravity="center"                   
+                   android:text="ANTAL BUILDER 4ST"
+                   android:textAppearance="?android:attr/textAppearanceMedium" />
+               
+           </LinearLayout>
+            
+            
+        </LinearLayout> 
+       
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3"
+        android:background="#88A6A4" >
+        
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"	
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"        
+	        android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnGalleryTittaPåBilder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Titta på bilder"
+                android:textColor="@android:color/white"
+                android:background="@drawable/btn_long" />
+            <Button
+                android:id="@+id/btnUploadImageHämtaBild"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Hämta bild"
+                android:textColor="@android:color/white"
+                android:background="@drawable/btn_long" />
+            <Button
+                android:id="@+id/btnTakeImageTaBild"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Ta bild"
+                android:textColor="@android:color/white"
+                android:background="@drawable/btn_long" />
+	        
+        </LinearLayout>    
+       
+    </LinearLayout>
+    
+
+</LinearLayout>
